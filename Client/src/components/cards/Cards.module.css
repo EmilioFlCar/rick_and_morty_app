@@ -1,0 +1,10 @@
+.divCards{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.cardsComponent{
+    border: solid;
+    padding: 5px;
+}

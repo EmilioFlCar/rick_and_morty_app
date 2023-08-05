@@ -1,0 +1,32 @@
+.aboutMe {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.myImage {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.main{
+    padding-top: 20px;
+}

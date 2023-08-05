@@ -1,0 +1,100 @@
+/* Card.module.css */
+
+.divCard {
+    position: relative; /* Agregamos posición relativa al contenedor .divCard */
+    z-index: 2;
+    margin: 1rem;
+    border: 1px solid;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2d2d2d; /* Color de fondo oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .imagen {
+    border-radius: 100%;
+    max-width: 100%;
+    height: 250px;
+    margin: 0.7rem;
+    
+  }
+
+  .portal{
+    margin: 0.7rem;
+  }
+
+  .muerto {
+    border-radius: 100%;
+    max-width: 100%;
+    height: 250px;
+    margin: 0.7rem;
+    filter: grayscale(100%);
+    
+  }
+
+  .favButton{
+    font-size: 25px;
+    position: absolute;
+    top: 9px; 
+    left: 15px;
+    /* padding: 5px 9px; */
+    /* border: none; */
+    /* color: #000; */
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .boton {
+    position: absolute; 
+    top: 15px; 
+    right: 17px;
+    padding: 5px 9px;
+    font-size: 14px;
+    background-color: #33ff33;
+    border: none;
+    color: #000;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .boton:hover {
+    background-color: #c91313; 
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff; /* Color del texto */
+  }
+
+  .titulo{
+    padding-top: 15px;
+  }
+
+  .titulo:hover {
+    color: #29a329;
+  }
+  
+  /* Estilos para el enlace */
+  a {
+    text-decoration: none;
+    color: #33ff33; /* Verde fluorescente para los enlaces */
+  }
+  
+  /* Agrega estos estilos */
+  a:hover {
+    color: #29a329; /* Color del enlace al pasar el cursor (verde más oscuro) */
+  }
+  
+  .hover-effect {
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.favButton:hover {
+  transform: scale(1.2); 
+}
