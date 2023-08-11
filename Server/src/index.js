@@ -2,6 +2,7 @@ const express = require('express')
 const routes = require('./routes/index')
 const server = express()
 const morgan = require('morgan')
+const { conn } = require('./DB_connection');
 
 const PORT = 3001
 
@@ -27,4 +28,5 @@ server.use('/rickandmorty', routes)
 
 server.listen(PORT, () => {
     console.log('Server raised in port: ' + PORT)
+    conn.sync().then( async()=>{})
 })
